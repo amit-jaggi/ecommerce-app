@@ -1,0 +1,25 @@
+.home-page-wrapper {
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+
+    .label-container {
+        width: 100%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .products-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+        align-content: flex-start;
+
+
+    }
+}
